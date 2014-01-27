@@ -1,5 +1,3 @@
-
-
 var rightCode = "parallax.speed = 2000;\n\nparallax.boo.right();";
 var topCode = "parallax.scaling = 'linear';\n\nparallax.boo.top();"
 var leftCode ="parallax.scaling = 0.9;\n\nparallax.boo.left();";
@@ -8,8 +6,10 @@ var lastCode="parallax.last.bottom();"
 var currentCode="parallax.current.ackbar(); ////What is it? "
 
 $(document).ready(function () {
-	
-	$("#boo").click(function(){
+
+
+
+    $("#boo").click(function(){
 		//clear away all the modifers
 		parallax.speed = 800;
 		parallax.easing = 'swing';
