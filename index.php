@@ -91,8 +91,9 @@
             <address>
                 <strong class="text-muted">SymerWeb Enr.</strong><br>
                 3273 rue Papineau<br>
-                Trois-Rivières<br>
-                <abbr title="Téléphone">T:</abbr> (450) 760-1498
+                Trois-Rivières (Québec)<br>
+                G8Z 1P6<br/>
+                Téléphone: 450 760-1498
             </address>
         </div>
         <div class="col-lg-6">
