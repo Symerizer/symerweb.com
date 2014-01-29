@@ -11,12 +11,16 @@
 <body>
 
 <header>
+
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="navbar-inner">
-            <img src="img/logoBrand.png" alt="Logo" class="navbar-text img-responsive pull-left"/>
-            <a href="#"><p id="language" class="navbar-text pull-right">English</p></a>
+        <div class="container">
+            <div class="navbar-inner">
+                <img src="img/logoBrand.png" alt="Logo" class="navbar-text img-responsive pull-left"/>
+                <a href="#"><p id="language" class="navbar-text pull-right">English</p></a>
+            </div>
         </div>
     </nav>
+
 </header>
 
 <section id="pres" class="container">
@@ -92,7 +96,6 @@
             </address>
         </div>
         <div class="col-lg-6">
-            <p class="lead">Pour me contacter facilement, simplement m'envoyer un email et je répondrai dans les plus brefs délais.</p>
             <form role="form">
                 <div class="form-group">
                     <label for="email">Votre adresse email</label>
