@@ -1,53 +1,85 @@
-@my-font: 'Audiowide', cursive !important;
-.background
-{
-  background-color: #f5f5f5;
-  margin-top: 6%;
-  overflow: hidden;
-}
-//Arrows
-.control
-{
-  position: absolute;
-  font-size: 150px;
-
-  //Text next to arrow
-  p
-  {
-    font-size: 30px;
-    margin-top: 10px;
-    font-family: @my-font;
-    .text-center;
-  }
-}
-
-#leftControl
-{
-  left: 0;
-}
+@my-font: 'Hammersmith One', sans-serif !important;
+@main-color: #FFA100;
+// #FF6C00 Orange
 
 .navbar
 {
-  opacity: 0.4;
+  font-size: 15px;
+  background-color: @main-color;
+  height: 35px;
   .navbar-text
   {
-    font-size: 25px;
-    float: none !important;
-    text-align: center !important;
+    font-family: @my-font;
+    color: #333333;
   }
 }
 
-#rightControl
+#pres
 {
-  right: 0;
+  margin-top: 5vh;
 }
 
-.custom-page
+section
 {
-  h1, h2, p
+  font-family: @my-font;
+  line-height: 2.2;
+
+  h1
   {
     font-family: @my-font;
+    font-size: 46px;
+    .text-center;
   }
-  position: relative !important;
-  margin-top: 6%;
+
+  .text-muted
+  {
+    color: @main-color;
+  }
+
+  .lead
+  {
+    margin-top: 10px;
+  }
+
+  .fa
+  {
+    color: @main-color;
+  }
+}
+
+h2
+{
+  font-family: @my-font;
+}
+
+#projects
+{
+  h2
+  {
+    font-family: @my-font;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    background-color: rgba(25,25,25,0.5);
+    position: relative;
+    z-index: 10;
+  }
+
+  img
+  {
+    z-index: -1;
+    position: relative;
+    bottom: 55px;
+  }
+}
+
+#contact
+{
+  #body
+  {
+    resize: vertical;
+  }
+  address
+  {
+    font-size: 25px;
+  }
 }
