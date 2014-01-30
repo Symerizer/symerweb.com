@@ -16,6 +16,10 @@
 
 #pres
 {
+  .fa
+  {
+    color: @main-color;
+  }
   margin-top: 5vh;
 }
 
@@ -40,11 +44,6 @@ section
   {
     margin-top: 10px;
   }
-
-  .fa
-  {
-    color: @main-color;
-  }
 }
 
 h2
@@ -57,8 +56,9 @@ h2
   h2
   {
     font-family: @my-font;
-    padding-top: 5px;
-    padding-bottom: 7px;
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 11px;
     background-color: rgba(25,25,25,0.5);
     position: relative;
     z-index: 10;
@@ -86,9 +86,28 @@ h2
 
 address
 {
+  font-size: 16px;
+  a:link{color: #FFA100}
   strong
   {
     letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 600px)
+{
+  #projects
+  {
+    h2
+    {
+      font-family: @my-font;
+      font-size: 12px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      background-color: rgba(25,25,25,0.5);
+      position: relative;
+      z-index: 10;
+    }
   }
 }
 
