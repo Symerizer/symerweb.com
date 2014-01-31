@@ -17,7 +17,7 @@
         <div class="container">
             <div class="navbar-inner">
                 <img src="img/logoBrand.png" alt="Logo" class="navbar-text img-responsive pull-left"/>
-                <a href="#"><p id="language" class="navbar-text pull-right">English</p></a>
+<!--                <a href="#"><p id="language" class="navbar-text pull-right">English</p></a>-->
             </div>
         </div>
     </nav>
@@ -27,7 +27,6 @@
 <section id="pres" class="container">
     <div class="row">
         <div class="col-md-12">
-            <hr/>
             <h1><?php echo $locale['TXT_TITLE'] ?></h1>
             <hr/>
         </div>
@@ -38,17 +37,17 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-4">
-            <h2><i class="fa fa-angle-right"></i> Lorem</h2>
-            <p>Sanctus sea sed takimata ut vero voluptua. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <div class="col-md-4 col-sm-12">
+            <h2><i class="fa fa-angle-right"></i><?php echo $locale['TXT_SUB1'] ?></h2>
+            <p><?php echo $locale['TXT_DESC1'] ?></p>
         </div>
-        <div class="col-md-4">
-            <h2><i class="fa fa-angle-right"></i> Ipsum</h2>
-            <p>Sanctus sea sed takimata ut vero voluptua. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <div class="col-md-4 col-sm-12">
+            <h2><i class="fa fa-angle-right"></i><?php echo $locale['TXT_SUB2'] ?></h2>
+            <p><?php echo $locale['TXT_DESC2'] ?></p>
         </div>
-        <div class="col-md-4">
-            <h2><i class="fa fa-angle-right"></i> Dolor</h2>
-            <p>Sanctus sea sed takimata ut vero voluptua. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <div class="col-md-4 col-sm-12">
+            <h2><i class="fa fa-angle-right"></i><?php echo $locale['TXT_SUB3'] ?></h2>
+            <p><?php echo $locale['TXT_DESC3'] ?></p>
         </div>
     </div>
 </section>
@@ -99,25 +98,25 @@
                         Trois-Rivières (Québec)<br>
                         G8Z 1P6<br/>
                         450 760-1498<br>
-                        <i class="fa fa-envelope"></i>&nbsp;<a href="mailto:contact@symerweb.com" target="_top">contact@symerweb.com</a>
                     </address>
                 </div>
             </div>
         </div>
         <div class="col-md-6">
-            <form role="form">
+            <form role="form" id="email">
                 <div class="form-group">
-                    <label for="email">Votre adresse email</label>
-                    <input type="email" id="email" class="form-control" placeholder="Votre adresse email">
+                    <label class="control-label" for="address">Votre adresse email</label>
+                    <input type="text" name="address" id="address" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label for="subject">Sujet</label>
-                    <input type="text" id="subject" class="form-control" placeholder="Sujet">
+                    <label class="control-label" for="subject">Sujet</label>
+                    <input type="text" name="subject" id="subject" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label for="body">Message</label>
+                    <label class="control-label" for="body">Message</label>
                     <textarea class="form-control" name="body" id="body" cols="30" rows="10"></textarea>
                 </div>
+                <input type="submit" class="btn btn-primary btn-block" value="Soumettre">
             </form>
         </div>
     </div>
