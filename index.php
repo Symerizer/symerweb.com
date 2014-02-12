@@ -3,16 +3,23 @@
 <head>
     <?php include_once "locale/fr.php" ?>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SymerWeb</title>
-    <link rel="stylesheet" type="text/less" href="less/bootstrap.less"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SymerWeb est une jeune entreprise québécoise spécialisée au développement d'un site Web pour vous et votre entrprise.">
+    <meta name="revisit-after" content="30 days">
+    <meta name="distribution" content="web">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Simon Mercier">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <link href='http://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
 </head>
 
 <body>
 
 <header>
-
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-inner">
@@ -21,7 +28,6 @@
             </div>
         </div>
     </nav>
-
 </header>
 
 <section id="pres" class="container">
@@ -61,17 +67,17 @@
         </div>
     </div>
     <div class="row text-center">
-        <div class="col-md-4 col-xs-6 col-sm-6">
+        <div class="col-md-4 col-xs-6 col-sm-6 project">
             <h2>Liquidation 125 Plus</h2>
-            <img src="http://placehold.it/360x300" alt="Liquidation 125 Plus" class="img-responsive"/>
+            <img src="http://placehold.it/360x376" alt="Liquidation 125 Plus" class="img-responsive"/>
         </div>
-        <div class="col-md-4 col-xs-6 col-sm-6">
+        <div class="col-md-4 col-xs-6 col-sm-6 project">
             <h2>Patrimoine Bécancour</h2>
-            <img src="http://placehold.it/360x300" alt="Société du Patrimoine de Bécancour" class="img-responsive"/>
+            <img src="http://placehold.it/360x376" alt="Société du Patrimoine de Bécancour" class="img-responsive"/>
         </div>
-        <div class="col-md-4 col-xs-6 col-sm-6">
+        <div class="col-md-4 col-xs-6 col-sm-6 project">
             <h2>Et vous ?</h2>
-            <img src="http://placehold.it/360x300" alt="Serez-vous le prochain ?" class="img-responsive"/>
+            <img src="http://placehold.it/360x376" alt="Serez-vous le prochain ?" class="img-responsive"/>
         </div>
     </div>
 </section>
@@ -84,7 +90,6 @@
             <hr/>
         </div>
     </div>
-
     <div class="row">
         <div class="col-md-6">
             <img src="img/logoBig.png" alt="Logo" class="img-responsive pull-left"/>
@@ -93,16 +98,17 @@
                     <address>
                         <br/>
                         <strong class="text-muted">SymerWeb Enr.</strong><br>
-                        Simon Mercier<br>
-                        3273 rue Papineau<br>
-                        Trois-Rivières (Québec)<br>
-                        G8Z 1P6<br/>
-                        450 760-1498<br>
+                        <i class="fa fa-user fa-fw"></i>&nbsp;Simon Mercier<br>
+                        <i class="fa fa-road fa-fw"></i>&nbsp;3273 rue Papineau<br>
+                        <i class="fa fa-building-o fa-fw"></i>&nbsp;Trois-Rivières (Québec)<br>
+                        <i class="fa fa-envelope fa-fw"></i>&nbsp;G8Z 1P6<br/>
+                        <i class="fa fa-phone fa-fw"></i>&nbsp;450 760-1498<br>
                     </address>
                 </div>
             </div>
         </div>
         <div class="col-md-6">
+            <div class="alert text-center"></div>
             <form role="form" id="email">
                 <div class="form-group">
                     <label class="control-label" for="address">Votre adresse email</label>
@@ -122,11 +128,9 @@
     </div>
 </section>
 
-
-
 <script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/less.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 </body>
 

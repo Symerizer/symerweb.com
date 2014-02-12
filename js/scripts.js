@@ -25,10 +25,9 @@ $( document ).ready(function() {
 
     // Form validation.
 
-
     var address = false, subject = false, body = false;
 
-    $('#address').focusout(function(e){
+    $('#address').change(function(e){
         var pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
         if($(this).val().match(pattern))
         {
@@ -42,45 +41,47 @@ $( document ).ready(function() {
         }
     });
 
-    $('#subject').focusout(function(e){
+    $('#body, #subject').change(function(e){
         if($(this).val() == "")
         {
             $(this).parent().removeClass("has-success").addClass("has-error");
             subject = false;
-        }
-        else
-        {
-            $(this).parent().removeClass("has-error").addClass("has-success");
-            subject = true;
-        }
-    });
-
-    $('#body').focusout(function(e){
-        if($(this).val() == "")
-        {
-            $(this).parent().removeClass("has-success").addClass("has-error");
             body = false;
         }
         else
         {
             $(this).parent().removeClass("has-error").addClass("has-success");
+            subject = true;
             body = true
         }
     });
 
     $('#email').submit(function(e){
         e.preventDefault();
+        // Sending
         if(address && subject && body)
         {
             var data = $(this).serialize();
-            $.post('mail.php', data)
-            $(this).hide();
+            $.post('mail.php', data);
+            $(this).remove();
+
+            $('.alert').addClass("alert-success").show(function(){
+                $(this).html("Message envoyé avec succès.");
+            });
         }
+        // Not sending
         else
         {
-            console.log("not good email matching");
+            $('.alert').addClass("alert-danger").show(function(){
+                $(this).html("Erreur lors de l'envoit du message.");
+            });
         }
     });
 
+    $('.project').hover(function(){
+        $(this).fadeTo("fast", 1).mouseleave(function(){
+            $(this).stop(true).fadeTo(("fast"), 0.5);
+        })
+    })
 });
 
