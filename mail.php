@@ -5,13 +5,13 @@ $mail = new PHPMailer;
 
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
-$mail->Port = '465';
+$mail->Username = 'jackoftrefle@gmail.com';
+$mail->Password = 'thefi50cs12';
+$mail->Port = '587';
+$mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
-$mail->Username = 'symerizer@gmail.com';
-$mail->Password = 'thefi50cs';
-$mail->SMTPSecure = 'ssl';
 $mail->FromName = 'SymerWeb.com';
-$mail->From = $_POST['address'];
+$mail->setFrom($_POST['address']);
 $mail->addAddress('contact@symerweb.com', 'Simon Mercier');
 $mail->Subject = $_POST['subject'];
 $mail->Body    = 'Nouveau message de la part de : '.$mail->From.' et le message est : '.$_POST['body'];

@@ -6,8 +6,7 @@
     <title>SymerWeb</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="SymerWeb est une jeune entreprise québécoise spécialisée au développement d'un site Web pour vous et votre entrprise.">
-    <meta name="revisit-after" content="30 days">
-    <meta name="distribution" content="web">
+    <meta name="revisit-after" content="1 days">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Simon Mercier">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
