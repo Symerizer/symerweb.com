@@ -67,16 +67,15 @@
     </div>
     <div class="row text-center">
         <div class="col-md-4 col-xs-6 col-sm-6 project">
-            <h2>Liquidation 125 Plus</h2>
-            <img src="http://placehold.it/360x376" alt="Liquidation 125 Plus" class="img-responsive"/>
+            <h2 style="background-color: #ffa100">Liquidation 125 Plus</h2>
+            <img src="img/liquidation.jpg" alt="Liquidation 125 Plus" class="img-responsive" style="height: 340px;"/>
         </div>
         <div class="col-md-4 col-xs-6 col-sm-6 project">
-            <h2>Patrimoine Bécancour</h2>
-            <img src="http://placehold.it/360x376" alt="Société du Patrimoine de Bécancour" class="img-responsive"/>
+            <h2 style="background-color: #ffa100">Patrimoine Bécancour</h2>
+            <img src="img/becancour.jpg" alt="Société du Patrimoine de Bécancour" class="img-responsive" style="height: 340px;"/>
         </div>
-        <div class="col-md-4 col-xs-6 col-sm-6 project">
-            <h2>Et vous ?</h2>
-            <img src="http://placehold.it/360x376" alt="Serez-vous le prochain ?" class="img-responsive"/>
+        <div class="col-md-4 col-xs-6 col-sm-6">
+            <h2 style="background-color: #ffa100">Et vous ?</h2>
         </div>
     </div>
 </section>
@@ -90,39 +89,20 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6">
-            <img src="img/logoBig.png" alt="Logo" class="img-responsive pull-left"/>
+        <div class="col-md-12">
+            <img src="img/logoBig.png" alt="Logo" class="img-responsive pull-right"/>
             <div class="row">
-                <div class="col-md-12 col-sm-12">
+                <div class="col-md-6 col-sm-12">
                     <address>
-                        <br/>
                         <strong class="text-muted">SymerWeb Enr.</strong><br>
                         <i class="fa fa-user fa-fw"></i>&nbsp;Simon Mercier<br>
-                        <i class="fa fa-road fa-fw"></i>&nbsp;3273 rue Papineau<br>
+                        <i class="fa fa-road fa-fw"></i>&nbsp;930 rue Marguerite-Bourgeoys<br>
                         <i class="fa fa-building-o fa-fw"></i>&nbsp;Trois-Rivières (Québec)<br>
-                        <i class="fa fa-envelope fa-fw"></i>&nbsp;G8Z 1P6<br/>
+                        <i class="fa fa-envelope fa-fw"></i>&nbsp;G8Z 3S7<br/>
                         <i class="fa fa-phone fa-fw"></i>&nbsp;450 760-1498<br>
                     </address>
                 </div>
             </div>
-        </div>
-        <div class="col-md-6">
-            <div class="alert text-center"></div>
-            <form role="form" id="email">
-                <div class="form-group">
-                    <label class="control-label" for="address">Votre adresse email</label>
-                    <input type="text" name="address" id="address" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label class="control-label" for="subject">Sujet</label>
-                    <input type="text" name="subject" id="subject" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label class="control-label" for="body">Message</label>
-                    <textarea class="form-control" name="body" id="body" cols="30" rows="10"></textarea>
-                </div>
-                <input type="submit" class="btn btn-primary btn-block" value="Soumettre">
-            </form>
         </div>
     </div>
 </section>
