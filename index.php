@@ -90,7 +90,6 @@
     </div>
     <div class="row">
         <div class="col-md-12">
-            <img src="img/logoBig.png" alt="Logo" class="img-responsive pull-right"/>
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <address>
@@ -101,6 +100,9 @@
                         <i class="fa fa-phone fa-fw"></i>&nbsp;450 760-1498<br>
                         <i class="fa fa-envelope-o fa-fw"></i><a href="mailto:contact@symerweb.com">&nbsp;contact@symerweb.com</a>
                     </address>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <img src="img/logoBig.png" alt="Logo" class="img-responsive pull-right"/>
                 </div>
             </div>
         </div>
