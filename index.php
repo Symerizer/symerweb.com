@@ -66,15 +66,15 @@
         </div>
     </div>
     <div class="row text-center">
-        <div class="col-md-4 col-xs-6 col-sm-6 project">
+        <div class="col-md-4 col-xs-12 col-sm-12 project">
             <h2 style="background-color: #ffa100">Liquidation 125 Plus</h2>
             <img src="img/liquidation.jpg" alt="Liquidation 125 Plus" class="img-responsive" style="height: 340px;"/>
         </div>
-        <div class="col-md-4 col-xs-6 col-sm-6 project">
+        <div class="col-md-4 col-xs-12 col-sm-12 project">
             <h2 style="background-color: #ffa100">Patrimoine Bécancour</h2>
             <img src="img/becancour.jpg" alt="Société du Patrimoine de Bécancour" class="img-responsive" style="height: 340px;"/>
         </div>
-        <div class="col-md-4 col-xs-6 col-sm-6">
+        <div class="col-md-4 col-xs-12 col-sm-12">
             <h2 style="background-color: #ffa100">Et vous ?</h2>
         </div>
     </div>
