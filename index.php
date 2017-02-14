@@ -95,7 +95,6 @@
                     <address>
                         <strong class="text-muted">SymerWeb Enr.</strong><br>
                         <i class="fa fa-user fa-fw"></i>&nbsp;Simon Mercier<br>
-                        <i class="fa fa-road fa-fw"></i>&nbsp;9120 rue Berri<br>
                         <i class="fa fa-building-o fa-fw"></i>&nbsp;Montréal<br>
                         <i class="fa fa-phone fa-fw"></i>&nbsp;450 760-1498<br>
                         <i class="fa fa-envelope-o fa-fw"></i><a href="mailto:contact@symerweb.com">&nbsp;contact@symerweb.com</a>
